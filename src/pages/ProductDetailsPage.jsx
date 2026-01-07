@@ -29,7 +29,7 @@ export default function ProductDetailsPage() {
       <div style={{ display: "grid", gridTemplateColumns: "260px 1fr", gap: 18 }}>
         <div style={{ border: "1px solid #ddd", borderRadius: 10, padding: 12 }}>
           <img
-            src={selected.image}
+            src={selected.thumbnail}
             alt={selected.title}
             style={{ width: "100%", height: 240, objectFit: "contain" }}
           />

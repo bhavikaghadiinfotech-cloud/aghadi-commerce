@@ -56,7 +56,7 @@ export default function CartPage() {
               }}
             >
               <img
-                src={x.image}
+                src={x.thumbnail}
                 alt={x.title}
                 style={{ width: 70, height: 70, objectFit: "contain" }}
               />

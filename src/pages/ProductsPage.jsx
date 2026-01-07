@@ -128,7 +128,7 @@ export default function ProductsPage() {
             }}
           >
             <img
-              src={p.image}
+              src={p.thumbnail}
               alt={p.title}
               style={{ width: "100%", height: 160, objectFit: "contain" }}
             />
